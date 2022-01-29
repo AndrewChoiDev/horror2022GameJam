@@ -22,7 +22,7 @@ public class Interact : MonoBehaviour
 
             if (hit)
             {
-                raycastHit.collider.GetComponentInParent<GameEventTrigger>().invoke();
+                raycastHit.collider.GetComponentInParent<InteractHitbox>().invoke();
             }
         }
     }

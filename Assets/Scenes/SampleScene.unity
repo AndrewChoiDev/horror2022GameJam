@@ -794,5 +794,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: TriggerHitbox
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6832676148224198904, guid: 71f241c146a8aec4193f351a46be6b98, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 71f241c146a8aec4193f351a46be6b98, type: 3}
+--- !u!1 &3685486479099582942 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4893851498053746343, guid: 71f241c146a8aec4193f351a46be6b98, type: 3}
+  m_PrefabInstance: {fileID: 3685486479099582941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3685486479099582943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3685486479099582942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cbd173ed9f17654db2cd0618d317879, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unityEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3685486479099582943}
+        m_TargetAssemblyTypeName: InteractHitbox, Assembly-CSharp
+        m_MethodName: printSth
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

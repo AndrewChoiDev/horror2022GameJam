@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class GameEventTrigger : MonoBehaviour
+public class InteractHitbox : MonoBehaviour
 {
     [SerializeField] private UnityEvent unityEvent;
 
