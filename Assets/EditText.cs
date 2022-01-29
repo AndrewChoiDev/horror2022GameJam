@@ -4,17 +4,15 @@ using UnityEngine;
 
 public class EditText : MonoBehaviour
 {
-    [SerializeField] private TMPro.TextMeshPro textMesh;
+    private TMPro.TextMeshProUGUI textMesh;
     // Start is called before the first frame update
     void Start()
     {
-        textMesh = this.GetComponent<TMPro.TextMeshPro>();
-        textMesh.text = "New Text";
+        textMesh = this.GetComponent<TMPro.TextMeshProUGUI>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void editText(string text)
     {
-        
+        textMesh.text = text;
     }
 }
