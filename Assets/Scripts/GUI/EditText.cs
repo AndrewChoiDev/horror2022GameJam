@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class EditText : MonoBehaviour
 {
-    private TMPro.TextMeshProUGUI textMesh;
+    private TMPro.TMP_Text textMesh;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        textMesh = this.GetComponent<TMPro.TextMeshProUGUI>();
-        setText("Test");
+        textMesh = this.GetComponent<TMPro.TMP_Text>();
     }
 
     public void setText(string text)

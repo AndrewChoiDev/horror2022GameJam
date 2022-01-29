@@ -11,9 +11,4 @@ public class InteractHitbox : MonoBehaviour
     {
         unityEvent?.Invoke();
     }
-
-    public void printSth()
-    {
-        Debug.Log("Debug");
-    }
 }

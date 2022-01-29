@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &4893851498053746343
+--- !u!1 &6740813980240590714
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,9 +8,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2708524030761713070}
-  - component: {fileID: 9183717245098353634}
-  - component: {fileID: 6832676148224198904}
+  - component: {fileID: 4319170684788061299}
+  - component: {fileID: 6995573147744135743}
+  - component: {fileID: 3181052423692134924}
   m_Layer: 0
   m_Name: TriggerHitbox
   m_TagString: Untagged
@@ -18,13 +18,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2708524030761713070
+--- !u!4 &4319170684788061299
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4893851498053746343}
+  m_GameObject: {fileID: 6740813980240590714}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.2760973, y: -0.26782703, z: 0.47860432}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -33,43 +33,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &9183717245098353634
+--- !u!65 &6995573147744135743
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4893851498053746343}
+  m_GameObject: {fileID: 6740813980240590714}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6832676148224198904
+--- !u!114 &3181052423692134924
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4893851498053746343}
+  m_GameObject: {fileID: 6740813980240590714}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5553c1800633e054aa0e419f8bf73c9c, type: 3}
+  m_Script: {fileID: 11500000, guid: 9cbd173ed9f17654db2cd0618d317879, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   unityEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 6832676148224198904}
-        m_TargetAssemblyTypeName: GameEventTrigger, Assembly-CSharp
-        m_MethodName: printSth
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
