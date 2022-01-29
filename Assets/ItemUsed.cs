@@ -1,18 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class ItemUsed : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] string item;
+    [SerializeField] Item itemController;
+    [SerializeField] UnityEvent unityEvent;
+    
+    public void checkItem()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (string.Equals(this.item, itemController.getItem())) 
+        {
+            Debug.Log("Cereal used on bowl");
+            itemController.setItem("");
+            unityEvent?.Invoke();
+        }
     }
 }
