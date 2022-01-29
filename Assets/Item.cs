@@ -6,7 +6,7 @@ public class Item : MonoBehaviour
 {
     //This class manages the equipped item
     private string currItem;
-    [SerializeField] private TMPro.TMP_Text itemUI;
+    [SerializeField] private EditText itemUI;
 
     public string getItem()
     {
@@ -16,11 +16,12 @@ public class Item : MonoBehaviour
     public void setItem(string item)
     {
         currItem = item;
-        itemUI.text = currItem;
+        itemUI.setText(item);
+        Debug.Log(item);
     } //This is for picking up item
 
     void Start()
     {
-        itemUI.text = "";
+        itemUI.setText();
     }
 }
