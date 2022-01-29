@@ -8,6 +8,10 @@ public class Item : MonoBehaviour
     private string currItem;
     [SerializeField] private EditText itemUI;
 
+    private void Awake() {
+        
+    }
+
     public string getItem()
     {
         return currItem;
@@ -17,11 +21,5 @@ public class Item : MonoBehaviour
     {
         currItem = item;
         itemUI.setText(item);
-        Debug.Log(item);
     } //This is for picking up item
-
-    void Start()
-    {
-        itemUI.setText();
-    }
 }

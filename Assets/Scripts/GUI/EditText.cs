@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class EditText : MonoBehaviour
 {
-    private TMPro.TMP_Text textMesh;
+    [SerializeField] private TMPro.TMP_Text textMesh;
 
     // Start is called before the first frame update
     void Awake()
     {
-        textMesh = this.GetComponent<TMPro.TMP_Text>();
     }
 
     public void setText(string text)
@@ -17,8 +16,4 @@ public class EditText : MonoBehaviour
         textMesh.text = text;
     }
 
-    public void setText()
-    {
-        textMesh.text = "";
-    }
 }

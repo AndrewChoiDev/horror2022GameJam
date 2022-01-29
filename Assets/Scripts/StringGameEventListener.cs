@@ -1,0 +1,1 @@
+public class StringGameEventListener : GameEventListenerGeneric<string, StringGameEvent> {}

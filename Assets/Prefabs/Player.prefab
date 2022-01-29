@@ -59,6 +59,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cb6b0b54293bcc408b41d032767aee4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textMesh: {fileID: 2241594164947273586}
+  textBuffer: 
 --- !u!114 &2241594164947273586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79,7 +81,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: a
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -316,6 +318,7 @@ GameObject:
   - component: {fileID: 8246686876947843874}
   - component: {fileID: 1572752763618757457}
   - component: {fileID: 3361197394296833381}
+  - component: {fileID: 3509146023358338375}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -412,7 +415,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f788a085fd2c484498f305bc9c841958, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemUI: {fileID: 2241594164947273586}
+  itemUI: {fileID: 6937463733767641316}
+--- !u!114 &3509146023358338375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8246686876947843878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71f9087de809ee44cb62ed53741daf2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 4625fd80e64e16c4eab0adb5ff52a44b, type: 2}
+  unityEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3361197394296833381}
+        m_TargetAssemblyTypeName: Item, Assembly-CSharp
+        m_MethodName: setItem
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8246686878488436664
 GameObject:
   m_ObjectHideFlags: 0
@@ -670,6 +701,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cb6b0b54293bcc408b41d032767aee4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textMesh: {fileID: 0}
+  textBuffer: 
 --- !u!114 &7876856600276015861
 MonoBehaviour:
   m_ObjectHideFlags: 0
