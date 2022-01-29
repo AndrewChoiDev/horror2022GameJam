@@ -10,6 +10,7 @@ public class EditText : MonoBehaviour
     void Start()
     {
         textMesh = this.GetComponent<TMPro.TextMeshProUGUI>();
+        setText("Test");
     }
 
     public void setText(string text)
@@ -19,6 +20,6 @@ public class EditText : MonoBehaviour
 
     public void setText()
     {
-        testMesh.text = "";
+        textMesh.text = "";
     }
 }
