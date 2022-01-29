@@ -248,7 +248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 729ae009a9f14874eba6d79854fcdf5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lookSpeed: 1
+  lookSpeed: 1.8
   angleA: 0
   pitchRotators:
   - {fileID: 1384347774}
@@ -298,6 +298,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8146ecf35e8cb47498c6e319685f6592, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkSpeed: 4
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
