@@ -330,9 +330,9 @@ MonoBehaviour:
   unityEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Pickup, Assembly-CSharp
-        m_MethodName: pickup
+      - m_Target: {fileID: 1072528213666729631}
+        m_TargetAssemblyTypeName: ItemUsed, Assembly-CSharp
+        m_MethodName: checkItem
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -453,6 +453,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9685e95224ce3e4aa993b81890d3851, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  item: 
+  itemController: {fileID: 0}
+  unityEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &6533850269019605168
 PrefabInstance:
   m_ObjectHideFlags: 0
