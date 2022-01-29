@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Pickup : MonoBehaviour
 {
-    private Item item;
+    //This script is a component of a pickup
+    [SerializeField] private Item item;
+
     public void pickup()
     {
         item.setItem(this.name);

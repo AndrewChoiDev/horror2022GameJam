@@ -35,10 +35,4 @@ public class UpdateObjective : MonoBehaviour
         this.GetComponent<EditText>().setText(taskList[index]);
         index++;
     }
-    
-    void Start()
-    {
-        loadTask(1);
-        nextTask();
-    }
 }

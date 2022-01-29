@@ -5,6 +5,7 @@ using UnityEngine;
 public class Interact : MonoBehaviour
 {
     private PlayerLook playerLook;
+    [SerializeField] private Transform origin;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,13 +16,15 @@ public class Interact : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            Debug.Log("Key is clicked");
             RaycastHit raycastHit = new RaycastHit();
-            bool hit = Physics.Raycast(this.GetComponent<Transform>().position,
+            //this.GetComponent<Transform>().position
+            bool hit = Physics.Raycast(origin.position,
                 playerLook.getLookDir(), out raycastHit, 3.0f);
+            //using the eye's transform seems to be more consistent than the player's
 
             if (hit)
             {
+                Debug.Log("Hit");
                 raycastHit.collider.GetComponentInParent<InteractHitbox>().invoke();
             }
         }
