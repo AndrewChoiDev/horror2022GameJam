@@ -24,7 +24,8 @@ public class Interact : MonoBehaviour
 
             if (hit)
             {
-                raycastHit.collider.GetComponent<InteractHitbox>()?.invoke();
+                Debug.Log("hit");
+                raycastHit.collider.GetComponentInParent<InteractHitbox>()?.invoke();
             }
         }
     }
