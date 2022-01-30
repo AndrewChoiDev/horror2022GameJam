@@ -17,7 +17,7 @@ public class HideAndSeek : MonoBehaviour {
     void Start()
     {
         player = GameObject.Find("Player");
-        brother = GameObject.Find("Brother");
+        brother = GameObject.Find("brother");
 
         pointsArray = GameObject.FindGameObjectsWithTag("HNS Point");
         ShufflePoints();
@@ -53,18 +53,18 @@ public class HideAndSeek : MonoBehaviour {
 
     void MoveBrother() {
         if (finds != pointsArray.Length) {
+            Debug.Log("brother moved");
             brother.transform.position = pointsArray[finds].transform.position + new Vector3(0, 1, 0);
         }
     }
 
     void ShufflePoints() {
         // Moves things around
-        for (int i = 0; i < 5; i++) {
-            int num1 = Random.Range(0, pointsArray.Length - 1);
-            int num2 = Random.Range(0, pointsArray.Length - 1);
-            Vector3 temp = pointsArray[num1].transform.position;
-            pointsArray[num1].transform.position = pointsArray[num2].transform.position; 
-            pointsArray[num2].transform.position = temp;
+        for (int i = pointsArray.Length - 1; i > 0; i--) {
+            int j = Random.Range(0, i);
+            Vector3 temp = pointsArray[i].transform.position;
+            pointsArray[i].transform.position = pointsArray[j].transform.position; 
+            pointsArray[j].transform.position = temp;
         }
     }
 }

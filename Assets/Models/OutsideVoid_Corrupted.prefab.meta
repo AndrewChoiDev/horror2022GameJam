@@ -1,6 +1,12 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Models/OutsideVoid_Corrupted.prefab.meta
 guid: 20c0c5a0e6c1e9e4b86375d8466ef862
 PrefabImporter:
+=======
+guid: af0ec033a31bd594da7bcf81df7ff723
+folderAsset: yes
+DefaultImporter:
+>>>>>>> 34315922649aeb4106afbcd68964ebd110809b9c:Assets/Prefabs/music objects.meta
   externalObjects: {}
   userData: 
   assetBundleName: 
