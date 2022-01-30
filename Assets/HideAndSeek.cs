@@ -7,13 +7,12 @@ public class HideAndSeek : MonoBehaviour {
     GameObject player;
     GameObject brother;
 
-    GameObject pointsObject;
     GameObject[] pointsArray;
 
     // The first three coordinates are positions and the last is a 0 or 1
     // if the brother has been found at the point
-    Vector4[] points;
-    int currentPointIdx;
+    List<Vector3> points;
+    int currentPointIndex;
 
     int finds = 0;
 
@@ -21,24 +20,32 @@ public class HideAndSeek : MonoBehaviour {
     {
         player = GameObject.Find("Player");
         brother = GameObject.Find("Brother");
+        points = new List<Vector3>();
 
-        pointsObject = GameObject.Find("Points");
+        GameObject pointsObject = GameObject.Find("Points");
         pointsArray = GameObject.FindGameObjectsWithTag("HNS Point");
-        points = new Vector4[pointsArray.Length];
-
+        
         for (int i = 0; i < pointsArray.Length; i++) {
             Transform t = pointsArray[i].GetComponent<Transform>();
             float x = t.transform.position.x;
             float y = t.transform.position.y;
             float z = t.transform.position.z;
-            points[i] = new Vector4(x, y, z, 0);
+            points[i] = new Vector3(x, y, z);
         }
+
+        currentPointIndex = Random.Range(0, pointsArray.Length);
     }
 
     // Update is called once per frame
     void Update() {
         if (FoundBrother()) {
+            points.RemoveAt(currentPointIndex);
+            currentPointIndex = Random.Range(0, points.Count);
+            brother.transform.position = points[currentPointIndex];
             finds++;
+        }
+        if (finds == pointsArray.Length) {
+            
         }
     }
 
