@@ -7,22 +7,20 @@ public class HideAndSeek : MonoBehaviour {
     GameObject player;
     GameObject brother;
 
-    GameObject[] pointsArray;
-
     // The first three coordinates are positions and the last is a 0 or 1
     // if the brother has been found at the point
-    List<Vector3> points;
-    int currentPointIndex;
+    List<Vector3> pointsList;
+    GameObject[] pointsArray;
 
+    int currentPointIndex;
     int finds = 0;
 
     void Start()
     {
         player = GameObject.Find("Player");
         brother = GameObject.Find("Brother");
-        points = new List<Vector3>();
 
-        GameObject pointsObject = GameObject.Find("Points");
+        pointsList = new List<Vector3>();
         pointsArray = GameObject.FindGameObjectsWithTag("HNS Point");
         
         for (int i = 0; i < pointsArray.Length; i++) {
@@ -30,22 +28,32 @@ public class HideAndSeek : MonoBehaviour {
             float x = t.transform.position.x;
             float y = t.transform.position.y;
             float z = t.transform.position.z;
-            points[i] = new Vector3(x, y, z);
+            pointsList[i] = new Vector3(x, y, z);
         }
 
         currentPointIndex = Random.Range(0, pointsArray.Length);
+        brother.transform.position = pointsList[currentPointIndex];
     }
 
     // Update is called once per frame
     void Update() {
         if (FoundBrother()) {
-            points.RemoveAt(currentPointIndex);
-            currentPointIndex = Random.Range(0, points.Count);
-            brother.transform.position = points[currentPointIndex];
+            pointsList.RemoveAt(currentPointIndex);
+            currentPointIndex = Random.Range(0, pointsList.Count);
+            brother.transform.position = pointsList[currentPointIndex];
             finds++;
         }
-        if (finds == pointsArray.Length) {
-            
+        if (finds + 1 == pointsArray.Length) {
+            // Find the remaining point GameObject and attach To Next Scene
+            for (int i = 0; i < pointsArray.Length; i++) {
+                bool sameX = pointsArray[i].transform.position.x == pointsList[0].x;
+                bool sameY = pointsArray[i].transform.position.y == pointsList[0].y;
+                bool sameZ = pointsArray[i].transform.position.z == pointsList[0].z;
+                if (sameX && sameY && sameZ) {
+                    pointsArray[i].AddComponent<ToNextScene>();
+                    break;
+                }
+            }
         }
     }
 
