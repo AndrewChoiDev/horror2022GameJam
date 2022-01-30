@@ -9,6 +9,8 @@ public class ToNextScene : MonoBehaviour
     {
         if (string.Equals(other.name, "Player"))
         {
+            Debug.Log("In");
+
             string scene = string.Copy(SceneManager.GetActiveScene().name);
 
             int sceneNum = (int)char.GetNumericValue(scene[4]) + 1;

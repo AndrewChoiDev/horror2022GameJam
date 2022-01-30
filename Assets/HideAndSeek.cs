@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 public class HideAndSeek : MonoBehaviour {
 
@@ -9,10 +10,8 @@ public class HideAndSeek : MonoBehaviour {
 
     // The first three coordinates are positions and the last is a 0 or 1
     // if the brother has been found at the point
-    List<Vector3> pointsList;
     GameObject[] pointsArray;
 
-    int currentPointIndex;
     int finds = 0;
 
     void Start()
@@ -20,40 +19,29 @@ public class HideAndSeek : MonoBehaviour {
         player = GameObject.Find("Player");
         brother = GameObject.Find("Brother");
 
-        pointsList = new List<Vector3>();
         pointsArray = GameObject.FindGameObjectsWithTag("HNS Point");
+        ShufflePoints();
         
-        for (int i = 0; i < pointsArray.Length; i++) {
-            Transform t = pointsArray[i].GetComponent<Transform>();
-            float x = t.transform.position.x;
-            float y = t.transform.position.y;
-            float z = t.transform.position.z;
-            pointsList[i] = new Vector3(x, y, z);
-        }
-
-        currentPointIndex = Random.Range(0, pointsArray.Length);
-        brother.transform.position = pointsList[currentPointIndex];
+        MoveBrother();
     }
 
     // Update is called once per frame
     void Update() {
         if (FoundBrother()) {
-            pointsList.RemoveAt(currentPointIndex);
-            currentPointIndex = Random.Range(0, pointsList.Count);
-            brother.transform.position = pointsList[currentPointIndex];
-            finds++;
-        }
-        if (finds + 1 == pointsArray.Length) {
-            // Find the remaining point GameObject and attach To Next Scene
-            for (int i = 0; i < pointsArray.Length; i++) {
-                bool sameX = pointsArray[i].transform.position.x == pointsList[0].x;
-                bool sameY = pointsArray[i].transform.position.y == pointsList[0].y;
-                bool sameZ = pointsArray[i].transform.position.z == pointsList[0].z;
-                if (sameX && sameY && sameZ) {
-                    pointsArray[i].AddComponent<ToNextScene>();
-                    break;
+            Debug.Log(finds + " " + pointsArray.Length);
+            if (finds != pointsArray.Length) {
+                finds++;
+                MoveBrother();
+
+                if (finds == pointsArray.Length - 1) {
+                    if (pointsArray[finds].GetComponent<ToNextScene>() == null) {
+                        pointsArray[finds].AddComponent<ToNextScene>();
+                        
+                        pointsArray[finds].AddComponent<BoxCollider>();
+                        pointsArray[finds].GetComponent<BoxCollider>().isTrigger = true;
+                    }
                 }
-            }
+            }            
         }
     }
 
@@ -61,5 +49,22 @@ public class HideAndSeek : MonoBehaviour {
         Vector3 brotherPosition = brother.transform.position;
         Vector3 playerPosition = player.transform.position;
         return Vector3.Distance(brotherPosition, playerPosition) < 1;
+    }
+
+    void MoveBrother() {
+        if (finds != pointsArray.Length) {
+            brother.transform.position = pointsArray[finds].transform.position + new Vector3(0, 1, 0);
+        }
+    }
+
+    void ShufflePoints() {
+        // Moves things around
+        for (int i = 0; i < 5; i++) {
+            int num1 = Random.Range(0, pointsArray.Length - 1);
+            int num2 = Random.Range(0, pointsArray.Length - 1);
+            Vector3 temp = pointsArray[num1].transform.position;
+            pointsArray[num1].transform.position = pointsArray[num2].transform.position; 
+            pointsArray[num2].transform.position = temp;
+        }
     }
 }
