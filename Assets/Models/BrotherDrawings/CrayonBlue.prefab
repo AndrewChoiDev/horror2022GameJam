@@ -9,15 +9,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6290923052776294138}
-  - component: {fileID: 7330058097011220986}
-  - component: {fileID: 461992378756808319}
   m_Layer: 0
-  m_Name: '[generated-collider-mesh]'
+  m_Name: <unable to delete>
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6290923052776294138
 Transform:
   m_ObjectHideFlags: 0
@@ -33,51 +31,6 @@ Transform:
   m_Father: {fileID: 7855538746960847147}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7330058097011220986
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 260373609777701662}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76a92adfdc6e3524fb82e0817c421ae3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Version: 1
-  SharedMesh: {fileID: 0}
-  RenderMaterial: {fileID: 0}
-  PhysicsMaterial: {fileID: 13400000, guid: 0c5fdfb44d6f19646a41a0720fbf751a, type: 2}
-  RenderSurfaceType: 4
-  MeshDescription:
-    meshQuery:
-      layers: 33554440
-      maskAndChannels: 8
-    surfaceParameter: 24218
-    meshQueryIndex: 1
-    subMeshQueryIndex: 0
-    geometryHashValue: 6376940585028519826
-    surfaceHashValue: -4297343055169685069
-    vertexCount: 126
-    indexCount: 240
-  HasGeneratedNormals: 0
-  HasUV2: 0
-  LightingHashValue: 6376940585028519826
---- !u!64 &461992378756808319
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 260373609777701662}
-  m_Material: {fileID: 13400000, guid: 0c5fdfb44d6f19646a41a0720fbf751a, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 0}
 --- !u!1 &4748003409333041542
 GameObject:
   m_ObjectHideFlags: 0
@@ -1052,7 +1005,7 @@ MonoBehaviour:
       TexGenIndex: 21
     - EdgeIndices: 760000007700000078000000790000007a0000007b0000007c0000007d000000
       TexGenIndex: 22
-    Generation: 4
+    Generation: 449
 --- !u!1 &5368153807043101039
 GameObject:
   m_ObjectHideFlags: 0
@@ -1108,11 +1061,11 @@ MonoBehaviour:
     meshQuery:
       layers: 16777223
       maskAndChannels: 234881031
-    surfaceParameter: -33416
+    surfaceParameter: 26314
     meshQueryIndex: 0
     subMeshQueryIndex: 0
-    geometryHashValue: 6376940585028519826
-    surfaceHashValue: -205649159643900951
+    geometryHashValue: -3302237256197185263
+    surfaceHashValue: -8689316103550893695
     vertexCount: 126
     indexCount: 240
   HasGeneratedNormals: 0
@@ -1220,7 +1173,7 @@ MonoBehaviour:
   PrefabDestinationAlignment: 0
   Version: 1.1
   infiniteBrush: {fileID: 0}
-  Settings: 1025
+  Settings: 1057
   VertexChannels: 14
   ReceiveGI: 2
   MeshColliderCookingOptions: 14
@@ -1304,23 +1257,6 @@ MonoBehaviour:
   owner: {fileID: 1096705903916523573}
   helperSurfaces:
   - SharedMesh: {fileID: 0}
-    RenderSurfaceType: 4
-    HasGeneratedNormals: 0
-    MeshDescription:
-      meshQuery:
-        layers: 33554440
-        maskAndChannels: 8
-      surfaceParameter: 24218
-      meshQueryIndex: 1
-      subMeshQueryIndex: 0
-      geometryHashValue: 7562922429012089804
-      surfaceHashValue: -1083962405072228397
-      vertexCount: 102
-      indexCount: 192
-    GameObject: {fileID: 0}
-    MeshFilter: {fileID: 0}
-    MeshRenderer: {fileID: 0}
-  - SharedMesh: {fileID: 0}
     RenderSurfaceType: 6
     HasGeneratedNormals: 0
     MeshDescription:
@@ -1328,12 +1264,12 @@ MonoBehaviour:
         layers: 2
         maskAndChannels: 2
       surfaceParameter: 0
-      meshQueryIndex: 2
+      meshQueryIndex: 1
       subMeshQueryIndex: 0
-      geometryHashValue: 7562922429012089804
-      surfaceHashValue: -1083962405072228397
-      vertexCount: 102
-      indexCount: 192
+      geometryHashValue: -3302237256197185263
+      surfaceHashValue: -4297343055169685069
+      vertexCount: 126
+      indexCount: 240
     GameObject: {fileID: 0}
     MeshFilter: {fileID: 0}
     MeshRenderer: {fileID: 0}
@@ -1345,12 +1281,12 @@ MonoBehaviour:
         layers: 4
         maskAndChannels: 4
       surfaceParameter: 0
-      meshQueryIndex: 3
+      meshQueryIndex: 2
       subMeshQueryIndex: 0
-      geometryHashValue: 7562922429012089804
-      surfaceHashValue: -1083962405072228397
-      vertexCount: 102
-      indexCount: 192
+      geometryHashValue: -3302237256197185263
+      surfaceHashValue: -4297343055169685069
+      vertexCount: 126
+      indexCount: 240
     GameObject: {fileID: 0}
     MeshFilter: {fileID: 0}
     MeshRenderer: {fileID: 0}

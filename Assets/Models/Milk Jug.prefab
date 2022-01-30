@@ -260,7 +260,7 @@ MonoBehaviour:
       TexGenIndex: 4
     - EdgeIndices: 07000000060000000500000004000000
       TexGenIndex: 5
-    Generation: 60
+    Generation: 238
 --- !u!1 &2026819415366878260
 GameObject:
   m_ObjectHideFlags: 0
@@ -315,100 +315,100 @@ MonoBehaviour:
     Version: 1
     Surfaces:
     - Plane:
-        a: -0.3671804
-        b: 0.28174743
-        c: -0.88645184
-        d: 0.08864518
-      Tangent: {x: -0.9238795, y: 0, z: 0.38268346}
-      BiNormal: {x: 0.107820086, y: 0.95948863, z: 0.2603007}
+        a: -0.36718035
+        b: 0.2817475
+        c: -0.8864519
+        d: 0.08864519
+      Tangent: {x: -0.9238795, y: 0, z: 0.38268337}
+      BiNormal: {x: 0.10782008, y: 0.9594886, z: 0.26030073}
       TexGenIndex: 0
     - Plane:
-        a: -0.28174743
-        b: 0.3671804
-        c: 0.88645184
-        d: 0.08864518
-      Tangent: {x: 0.9530206, y: 0, z: 0.30290547}
-      BiNormal: {x: 0.11122096, y: 0.93014973, z: -0.34993052}
+        a: -0.2817475
+        b: 0.36718035
+        c: 0.8864519
+        d: 0.08864519
+      Tangent: {x: 0.9530206, y: 0, z: 0.3029055}
+      BiNormal: {x: 0.111220956, y: 0.9301498, z: -0.34993047}
       TexGenIndex: 1
     - Plane:
-        a: -0.88645184
-        b: 0.28174743
-        c: 0.3671804
-        d: 0.08864518
-      Tangent: {x: 0.38268346, y: 0, z: 0.9238795}
-      BiNormal: {x: 0.2603007, y: 0.95948863, z: -0.107820086}
+        a: -0.8864519
+        b: 0.2817475
+        c: 0.36718035
+        d: 0.08864519
+      Tangent: {x: 0.38268337, y: 0, z: 0.9238795}
+      BiNormal: {x: 0.26030073, y: 0.9594886, z: -0.10782008}
       TexGenIndex: 2
     - Plane:
-        a: -0.3671804
-        b: 0.88645184
-        c: 0.28174743
-        d: 0.08864518
-      Tangent: {x: 0.9238795, y: 0.38268346, z: -0}
-      BiNormal: {x: -0.107820086, y: 0.2603007, z: -0.95948863}
+        a: -0.36718035
+        b: 0.8864519
+        c: 0.2817475
+        d: 0.08864519
+      Tangent: {x: 0.9238795, y: 0.38268337, z: -0}
+      BiNormal: {x: -0.10782008, y: 0.26030073, z: -0.9594886}
       TexGenIndex: 3
     - Plane:
-        a: 0.88645184
-        b: 0.3671804
-        c: 0.28174743
-        d: 0.08864518
-      Tangent: {x: 0.30290547, y: 0, z: -0.9530206}
-      BiNormal: {x: -0.34993052, y: 0.93014973, z: -0.11122096}
+        a: 0.8864519
+        b: 0.36718035
+        c: 0.2817475
+        d: 0.08864519
+      Tangent: {x: 0.3029055, y: 0, z: -0.9530206}
+      BiNormal: {x: -0.34993047, y: 0.9301498, z: -0.111220956}
       TexGenIndex: 4
     - Plane:
-        a: 0.28174743
-        b: 0.88645184
-        c: 0.3671804
-        d: 0.08864518
-      Tangent: {x: 0.9530206, y: -0.30290547, z: 0}
-      BiNormal: {x: 0.11122096, y: 0.34993052, z: -0.93014973}
+        a: 0.2817475
+        b: 0.8864519
+        c: 0.36718035
+        d: 0.08864519
+      Tangent: {x: 0.9530206, y: -0.3029055, z: 0}
+      BiNormal: {x: 0.111220956, y: 0.34993047, z: -0.9301498}
       TexGenIndex: 5
     - Plane:
-        a: 0.3671804
-        b: 0.28174743
-        c: 0.88645184
-        d: 0.08864518
-      Tangent: {x: 0.9238795, y: 0, z: -0.38268346}
-      BiNormal: {x: -0.107820086, y: 0.95948863, z: -0.2603007}
+        a: 0.36718035
+        b: 0.2817475
+        c: 0.8864519
+        d: 0.08864519
+      Tangent: {x: 0.9238795, y: 0, z: -0.38268337}
+      BiNormal: {x: -0.10782008, y: 0.9594886, z: -0.26030073}
       TexGenIndex: 6
     - Plane:
-        a: 0.28174743
-        b: 0.3671804
-        c: -0.88645184
-        d: 0.08864518
-      Tangent: {x: -0.9530206, y: -0, z: -0.30290547}
-      BiNormal: {x: -0.11122096, y: 0.93014973, z: 0.34993052}
+        a: 0.2817475
+        b: 0.36718035
+        c: -0.8864519
+        d: 0.08864519
+      Tangent: {x: -0.9530206, y: -0, z: -0.3029055}
+      BiNormal: {x: -0.111220956, y: 0.9301498, z: 0.34993047}
       TexGenIndex: 7
     - Plane:
-        a: 0.3671804
-        b: 0.88645184
-        c: -0.28174743
-        d: 0.08864518
-      Tangent: {x: 0.9238795, y: -0.38268346, z: 0}
-      BiNormal: {x: -0.107820086, y: -0.2603007, z: -0.95948863}
+        a: 0.36718035
+        b: 0.8864519
+        c: -0.2817475
+        d: 0.08864519
+      Tangent: {x: 0.9238795, y: -0.38268337, z: 0}
+      BiNormal: {x: -0.10782008, y: -0.26030073, z: -0.9594886}
       TexGenIndex: 8
     - Plane:
-        a: 0.88645184
-        b: 0.28174743
-        c: -0.3671804
-        d: 0.08864518
-      Tangent: {x: -0.38268346, y: -0, z: -0.9238795}
-      BiNormal: {x: -0.2603007, y: 0.95948863, z: 0.107820086}
+        a: 0.8864519
+        b: 0.2817475
+        c: -0.36718035
+        d: 0.08864519
+      Tangent: {x: -0.38268337, y: -0, z: -0.9238795}
+      BiNormal: {x: -0.26030073, y: 0.9594886, z: 0.10782008}
       TexGenIndex: 9
     - Plane:
-        a: -0.28174743
-        b: 0.88645184
-        c: -0.3671804
-        d: 0.08864518
-      Tangent: {x: 0.9530206, y: 0.30290547, z: -0}
-      BiNormal: {x: 0.11122096, y: -0.34993052, z: -0.93014973}
+        a: -0.2817475
+        b: 0.8864519
+        c: -0.36718035
+        d: 0.08864519
+      Tangent: {x: 0.9530206, y: 0.3029055, z: -0}
+      BiNormal: {x: 0.111220956, y: -0.34993047, z: -0.9301498}
       TexGenIndex: 10
     - Plane:
-        a: -0.88645184
-        b: 0.3671804
-        c: -0.28174743
-        d: 0.08864518
-      Tangent: {x: -0.30290547, y: 0, z: 0.9530206}
-      BiNormal: {x: 0.34993052, y: 0.93014973, z: 0.11122096}
+        a: -0.8864519
+        b: 0.36718035
+        c: -0.2817475
+        d: 0.08864519
+      Tangent: {x: -0.3029055, y: 0, z: 0.9530206}
+      BiNormal: {x: 0.34993047, y: 0.9301498, z: 0.111220956}
       TexGenIndex: 11
     - Plane:
         a: 0
@@ -419,100 +419,100 @@ MonoBehaviour:
       BiNormal: {x: -0, y: -0, z: -1}
       TexGenIndex: 12
     - Plane:
-        a: -0.88645184
-        b: 0.28174743
-        c: -0.3671804
-        d: 0.08864518
-      Tangent: {x: -0.38268346, y: 0, z: 0.9238795}
-      BiNormal: {x: 0.2603007, y: 0.95948863, z: 0.107820086}
+        a: -0.8864519
+        b: 0.2817475
+        c: -0.36718035
+        d: 0.08864519
+      Tangent: {x: -0.38268337, y: 0, z: 0.9238795}
+      BiNormal: {x: 0.26030073, y: 0.9594886, z: 0.10782008}
       TexGenIndex: 13
     - Plane:
-        a: -0.3671804
-        b: 0.88645184
-        c: -0.28174743
-        d: 0.08864518
-      Tangent: {x: 0.9238795, y: 0.38268346, z: -0}
-      BiNormal: {x: 0.107820086, y: -0.2603007, z: -0.95948863}
+        a: -0.36718035
+        b: 0.8864519
+        c: -0.2817475
+        d: 0.08864519
+      Tangent: {x: 0.9238795, y: 0.38268337, z: -0}
+      BiNormal: {x: 0.10782008, y: -0.26030073, z: -0.9594886}
       TexGenIndex: 14
     - Plane:
-        a: 0.88645184
-        b: 0.3671804
-        c: -0.28174743
-        d: 0.08864518
-      Tangent: {x: -0.30290547, y: -0, z: -0.9530206}
-      BiNormal: {x: -0.34993052, y: 0.93014973, z: 0.11122096}
+        a: 0.8864519
+        b: 0.36718035
+        c: -0.2817475
+        d: 0.08864519
+      Tangent: {x: -0.3029055, y: -0, z: -0.9530206}
+      BiNormal: {x: -0.34993047, y: 0.9301498, z: 0.111220956}
       TexGenIndex: 15
     - Plane:
-        a: 0.28174743
-        b: 0.88645184
-        c: -0.3671804
-        d: 0.08864518
-      Tangent: {x: 0.9530206, y: -0.30290547, z: 0}
-      BiNormal: {x: -0.11122096, y: -0.34993052, z: -0.93014973}
+        a: 0.2817475
+        b: 0.8864519
+        c: -0.36718035
+        d: 0.08864519
+      Tangent: {x: 0.9530206, y: -0.3029055, z: 0}
+      BiNormal: {x: -0.111220956, y: -0.34993047, z: -0.9301498}
       TexGenIndex: 16
     - Plane:
-        a: 0.3671804
-        b: 0.28174743
-        c: -0.88645184
-        d: 0.08864518
-      Tangent: {x: -0.9238795, y: -0, z: -0.38268346}
-      BiNormal: {x: -0.107820086, y: 0.95948863, z: 0.2603007}
+        a: 0.36718035
+        b: 0.2817475
+        c: -0.8864519
+        d: 0.08864519
+      Tangent: {x: -0.9238795, y: -0, z: -0.38268337}
+      BiNormal: {x: -0.10782008, y: 0.9594886, z: 0.26030073}
       TexGenIndex: 17
     - Plane:
-        a: 0.28174743
-        b: 0.3671804
-        c: 0.88645184
-        d: 0.08864518
-      Tangent: {x: 0.9530206, y: 0, z: -0.30290547}
-      BiNormal: {x: -0.11122096, y: 0.93014973, z: -0.34993052}
+        a: 0.2817475
+        b: 0.36718035
+        c: 0.8864519
+        d: 0.08864519
+      Tangent: {x: 0.9530206, y: 0, z: -0.3029055}
+      BiNormal: {x: -0.111220956, y: 0.9301498, z: -0.34993047}
       TexGenIndex: 18
     - Plane:
-        a: 0.3671804
-        b: 0.88645184
-        c: 0.28174743
-        d: 0.08864518
-      Tangent: {x: 0.9238795, y: -0.38268346, z: 0}
-      BiNormal: {x: 0.107820086, y: 0.2603007, z: -0.95948863}
+        a: 0.36718035
+        b: 0.8864519
+        c: 0.2817475
+        d: 0.08864519
+      Tangent: {x: 0.9238795, y: -0.38268337, z: 0}
+      BiNormal: {x: 0.10782008, y: 0.26030073, z: -0.9594886}
       TexGenIndex: 19
     - Plane:
-        a: 0.88645184
-        b: 0.28174743
-        c: 0.3671804
-        d: 0.08864518
-      Tangent: {x: 0.38268346, y: 0, z: -0.9238795}
-      BiNormal: {x: -0.2603007, y: 0.95948863, z: -0.107820086}
+        a: 0.8864519
+        b: 0.2817475
+        c: 0.36718035
+        d: 0.08864519
+      Tangent: {x: 0.38268337, y: 0, z: -0.9238795}
+      BiNormal: {x: -0.26030073, y: 0.9594886, z: -0.10782008}
       TexGenIndex: 20
     - Plane:
-        a: -0.28174743
-        b: 0.88645184
-        c: 0.3671804
-        d: 0.08864518
-      Tangent: {x: 0.9530206, y: 0.30290547, z: -0}
-      BiNormal: {x: -0.11122096, y: 0.34993052, z: -0.93014973}
+        a: -0.2817475
+        b: 0.8864519
+        c: 0.36718035
+        d: 0.08864519
+      Tangent: {x: 0.9530206, y: 0.3029055, z: -0}
+      BiNormal: {x: -0.111220956, y: 0.34993047, z: -0.9301498}
       TexGenIndex: 21
     - Plane:
-        a: -0.88645184
-        b: 0.3671804
-        c: 0.28174743
-        d: 0.08864518
-      Tangent: {x: 0.30290547, y: 0, z: 0.9530206}
-      BiNormal: {x: 0.34993052, y: 0.93014973, z: -0.11122096}
+        a: -0.8864519
+        b: 0.36718035
+        c: 0.2817475
+        d: 0.08864519
+      Tangent: {x: 0.3029055, y: 0, z: 0.9530206}
+      BiNormal: {x: 0.34993047, y: 0.9301498, z: -0.111220956}
       TexGenIndex: 22
     - Plane:
-        a: -0.3671804
-        b: 0.28174743
-        c: 0.88645184
-        d: 0.08864518
-      Tangent: {x: 0.9238795, y: 0, z: 0.38268346}
-      BiNormal: {x: 0.107820086, y: 0.95948863, z: -0.2603007}
+        a: -0.36718035
+        b: 0.2817475
+        c: 0.8864519
+        d: 0.08864519
+      Tangent: {x: 0.9238795, y: 0, z: 0.38268337}
+      BiNormal: {x: 0.10782008, y: 0.9594886, z: -0.26030073}
       TexGenIndex: 23
     - Plane:
-        a: -0.28174743
-        b: 0.3671804
-        c: -0.88645184
-        d: 0.08864518
-      Tangent: {x: -0.9530206, y: 0, z: 0.30290547}
-      BiNormal: {x: 0.11122096, y: 0.93014973, z: 0.34993052}
+        a: -0.2817475
+        b: 0.36718035
+        c: -0.8864519
+        d: 0.08864519
+      Tangent: {x: -0.9530206, y: 0, z: 0.3029055}
+      BiNormal: {x: 0.111220956, y: 0.9301498, z: 0.34993047}
       TexGenIndex: 24
     TexGens:
     - Translation: {x: 0.032548774, y: -0.024975551}
@@ -1058,7 +1058,7 @@ MonoBehaviour:
       TexGenIndex: 23
     - EdgeIndices: 0b0000004e0000004f000000
       TexGenIndex: 24
-    Generation: 0
+    Generation: 178
 --- !u!1 &2705602897075332786
 GameObject:
   m_ObjectHideFlags: 0
@@ -1907,7 +1907,7 @@ MonoBehaviour:
       TexGenIndex: 18
     - EdgeIndices: 230000002200000021000000200000001f0000001e0000001d0000001c0000001b0000001a0000001900000018000000170000001600000015000000140000001300000012000000
       TexGenIndex: 19
-    Generation: 9
+    Generation: 187
 --- !u!1 &3340266386655755986
 GameObject:
   m_ObjectHideFlags: 0
@@ -1955,7 +1955,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Version: 1
-  SharedMesh: {fileID: 8472597031480896614}
+  SharedMesh: {fileID: 0}
   RenderMaterial: {fileID: 2100000, guid: 62ca66a82163c7b4fa26c9536d1c2b8e, type: 2}
   PhysicsMaterial: {fileID: 0}
   RenderSurfaceType: 0
@@ -1963,11 +1963,11 @@ MonoBehaviour:
     meshQuery:
       layers: 16777223
       maskAndChannels: 234881031
-    surfaceParameter: 23946
+    surfaceParameter: 26458
     meshQueryIndex: 0
     subMeshQueryIndex: 0
-    geometryHashValue: -7542101390319475744
-    surfaceHashValue: 435908801048281639
+    geometryHashValue: -3645072387196223557
+    surfaceHashValue: 2543628942486994291
     vertexCount: 258
     indexCount: 456
   HasGeneratedNormals: 0
@@ -1980,7 +1980,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3340266386655755986}
-  m_Mesh: {fileID: 8472597031480896614}
+  m_Mesh: {fileID: 0}
 --- !u!23 &7162949557640769226
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2871,7 +2871,7 @@ MonoBehaviour:
       TexGenIndex: 18
     - EdgeIndices: 230000002200000021000000200000001f0000001e0000001d0000001c0000001b0000001a0000001900000018000000170000001600000015000000140000001300000012000000
       TexGenIndex: 19
-    Generation: 45
+    Generation: 223
 --- !u!1 &5888091906771752054
 GameObject:
   m_ObjectHideFlags: 0
@@ -2923,24 +2923,7 @@ MonoBehaviour:
   Version: 1
   owner: {fileID: 653436735140619529}
   helperSurfaces:
-  - SharedMesh: {fileID: -7660175274669021056}
-    RenderSurfaceType: 4
-    HasGeneratedNormals: 0
-    MeshDescription:
-      meshQuery:
-        layers: 33554440
-        maskAndChannels: 8
-      surfaceParameter: 24420
-      meshQueryIndex: 1
-      subMeshQueryIndex: 0
-      geometryHashValue: 2714262117987792
-      surfaceHashValue: -1598378494478315215
-      vertexCount: 188
-      indexCount: 306
-    GameObject: {fileID: 0}
-    MeshFilter: {fileID: 0}
-    MeshRenderer: {fileID: 0}
-  - SharedMesh: {fileID: -4654500853051826622}
+  - SharedMesh: {fileID: 0}
     RenderSurfaceType: 6
     HasGeneratedNormals: 0
     MeshDescription:
@@ -2948,16 +2931,16 @@ MonoBehaviour:
         layers: 2
         maskAndChannels: 2
       surfaceParameter: 0
-      meshQueryIndex: 2
+      meshQueryIndex: 1
       subMeshQueryIndex: 0
-      geometryHashValue: 2714262117987792
-      surfaceHashValue: -1598378494478315215
-      vertexCount: 188
-      indexCount: 306
+      geometryHashValue: -2216367735702554994
+      surfaceHashValue: -5741693183576017837
+      vertexCount: 350
+      indexCount: 618
     GameObject: {fileID: 0}
     MeshFilter: {fileID: 0}
     MeshRenderer: {fileID: 0}
-  - SharedMesh: {fileID: 8642238343949351517}
+  - SharedMesh: {fileID: 0}
     RenderSurfaceType: 7
     HasGeneratedNormals: 0
     MeshDescription:
@@ -2965,16 +2948,16 @@ MonoBehaviour:
         layers: 4
         maskAndChannels: 4
       surfaceParameter: 0
-      meshQueryIndex: 3
+      meshQueryIndex: 2
       subMeshQueryIndex: 0
-      geometryHashValue: 2714262117987792
-      surfaceHashValue: -1598378494478315215
-      vertexCount: 188
-      indexCount: 306
+      geometryHashValue: -2216367735702554994
+      surfaceHashValue: -5741693183576017837
+      vertexCount: 350
+      indexCount: 618
     GameObject: {fileID: 0}
     MeshFilter: {fileID: 0}
     MeshRenderer: {fileID: 0}
-  - SharedMesh: {fileID: -4887951043897403079}
+  - SharedMesh: {fileID: 0}
     RenderSurfaceType: 2
     HasGeneratedNormals: 0
     MeshDescription:
@@ -2982,12 +2965,12 @@ MonoBehaviour:
         layers: 8388608
         maskAndChannels: 8388608
       surfaceParameter: 0
-      meshQueryIndex: 4
+      meshQueryIndex: 3
       subMeshQueryIndex: 0
-      geometryHashValue: 1676039591729350033
-      surfaceHashValue: 5640309175524040129
-      vertexCount: 36
-      indexCount: 96
+      geometryHashValue: -1973359655343926204
+      surfaceHashValue: 5377728700505241907
+      vertexCount: 208
+      indexCount: 366
     GameObject: {fileID: 0}
     MeshFilter: {fileID: 0}
     MeshRenderer: {fileID: 0}
@@ -3000,15 +2983,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5979413285316005464}
-  - component: {fileID: 7119675703940054674}
-  - component: {fileID: 5369984790626509425}
   m_Layer: 0
-  m_Name: '[generated-collider-mesh]'
+  m_Name: <unable to delete>
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5979413285316005464
 Transform:
   m_ObjectHideFlags: 0
@@ -3024,51 +3005,6 @@ Transform:
   m_Father: {fileID: 5152605368544935232}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7119675703940054674
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7375773511186757480}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76a92adfdc6e3524fb82e0817c421ae3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Version: 1
-  SharedMesh: {fileID: -301434292871465679}
-  RenderMaterial: {fileID: 0}
-  PhysicsMaterial: {fileID: 13400000, guid: 0c5fdfb44d6f19646a41a0720fbf751a, type: 2}
-  RenderSurfaceType: 4
-  MeshDescription:
-    meshQuery:
-      layers: 33554440
-      maskAndChannels: 8
-    surfaceParameter: 23566
-    meshQueryIndex: 1
-    subMeshQueryIndex: 0
-    geometryHashValue: -6801251723759018253
-    surfaceHashValue: -5741693183576017837
-    vertexCount: 350
-    indexCount: 618
-  HasGeneratedNormals: 0
-  HasUV2: 0
-  LightingHashValue: -6801251723759018253
---- !u!64 &5369984790626509425
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7375773511186757480}
-  m_Material: {fileID: 13400000, guid: 0c5fdfb44d6f19646a41a0720fbf751a, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: -301434292871465679}
 --- !u!1 &7589092780675101471
 GameObject:
   m_ObjectHideFlags: 0
@@ -3124,7 +3060,7 @@ MonoBehaviour:
   PrefabDestinationAlignment: 0
   Version: 1.1
   infiniteBrush: {fileID: 0}
-  Settings: 1537
+  Settings: 1569
   VertexChannels: 14
   ReceiveGI: 2
   MeshColliderCookingOptions: 14
@@ -3205,7 +3141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Version: 1
-  SharedMesh: {fileID: -7914134410914338612}
+  SharedMesh: {fileID: 0}
   RenderMaterial: {fileID: 2100000, guid: e55d4feaf0c5e5548b69429d42a16fe2, type: 2}
   PhysicsMaterial: {fileID: 0}
   RenderSurfaceType: 0
@@ -3213,11 +3149,11 @@ MonoBehaviour:
     meshQuery:
       layers: 16777223
       maskAndChannels: 234881031
-    surfaceParameter: 23936
-    meshQueryIndex: 5
+    surfaceParameter: 26396
+    meshQueryIndex: 4
     subMeshQueryIndex: 0
-    geometryHashValue: -1347265760073991023
-    surfaceHashValue: 2630472462231133907
+    geometryHashValue: 2967764282342416011
+    surfaceHashValue: 6668400331259550375
     vertexCount: 92
     indexCount: 162
   HasGeneratedNormals: 0
@@ -3230,7 +3166,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8537575634401172081}
-  m_Mesh: {fileID: -7914134410914338612}
+  m_Mesh: {fileID: 0}
 --- !u!23 &6755730888916715473
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3282,15 +3218,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5554192773991099747}
-  - component: {fileID: 7189586598183038626}
-  - component: {fileID: 3226285231654722909}
   m_Layer: 0
-  m_Name: '[generated-collider-mesh]'
+  m_Name: <unable to delete>
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5554192773991099747
 Transform:
   m_ObjectHideFlags: 0
@@ -3306,51 +3240,6 @@ Transform:
   m_Father: {fileID: 5152605368544935232}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7189586598183038626
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9210678655219219493}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76a92adfdc6e3524fb82e0817c421ae3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Version: 1
-  SharedMesh: {fileID: -904278925974153302}
-  RenderMaterial: {fileID: 0}
-  PhysicsMaterial: {fileID: 13400000, guid: 0c5fdfb44d6f19646a41a0720fbf751a, type: 2}
-  RenderSurfaceType: 4
-  MeshDescription:
-    meshQuery:
-      layers: 33554440
-      maskAndChannels: 8
-    surfaceParameter: 23566
-    meshQueryIndex: 1
-    subMeshQueryIndex: 0
-    geometryHashValue: -6801251723759018253
-    surfaceHashValue: -5741693183576017837
-    vertexCount: 350
-    indexCount: 618
-  HasGeneratedNormals: 0
-  HasUV2: 0
-  LightingHashValue: -6801251723759018253
---- !u!64 &3226285231654722909
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9210678655219219493}
-  m_Material: {fileID: 13400000, guid: 0c5fdfb44d6f19646a41a0720fbf751a, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: -904278925974153302}
 --- !u!43 &-7914134410914338612
 Mesh:
   m_ObjectHideFlags: 0
