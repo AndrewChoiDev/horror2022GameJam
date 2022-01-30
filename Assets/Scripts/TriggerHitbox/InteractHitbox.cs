@@ -9,6 +9,7 @@ public class InteractHitbox : MonoBehaviour
 
     public void invoke()
     {
+        Debug.Log("Invoke event");
         unityEvent?.Invoke();
     }
 }
